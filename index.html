@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="author" content="lrv">
+
+        <meta name="description" content="this haz all the stuff i req for html.">
+
+<title>hello</title>
+
+<link rel="icon" href="img/MCRN.png" type="image/x-icon">
+
+<link rel="stylesheet" href="main.css" type="text/css">
+
+    </head>
+
+    <body>
+       
+
+        <h1>hello welcome!</h1>
+       <p>hello my name is lrv</p> 
+        <p>this is my first attempt at making a page using HTML</p> 
+        <hr>
+<main>
+        <h2> my 2nd titile</h2>
+        <p> &nbsp;this is intresting ok now lemme try the emphasis ok soo now lets say<br><br> <em>this is a superr imp para</em></p>
+        <hr>
+
+        <h3>ok soo heading 3 it is</h3>
+        <p>now let me try the strong thing and add my fav img <br>
+            <figure>
+             <img src="img/MCRN.png" alt="" title="this is MCRN tachi" width="150" height="150"> <figcaption> <em>My Fav Logo</em>
+            </figcaption>
+            </figure>
+            <strong>no way!</strong>
+            <p> Now for my contact info</p>
+           
+                <a href="#contact">contact me</a>
+            
+        <h3> now lets try abberivationz</h3>
+
+        <p> I like <abbr title="UNITED NATIONS NAVY">UNN</abbr> and <abbr title="martian congressional republic navy">MCRN.</abbr> </p>
+
+        <!-- thish is a mark types not visible direct ga need to use inspect for it this is like a note for yourself, and btw if we type br*any number we get that many line breaks instead of typing em all eg br*7= 7 line breaks.-->
+        <p> now for the location:</p>
+        <ul>
+        <li><address> mariner valley, mars</address> <abbr title="mars congressional republic">&nbsp;
+            <a href="https://expanse.fandom.com/wiki/Martian_Congressional_Republic">MCR</a></abbr><br><img src="img/mars.png" alt="" width="200" height="200" title="MARS" loading="lazy">
+            <br>
+
+             <li><address> bush naval ship yard,luna
+             </address> <abbr title="united nations"> &nbsp;
+                <a href="https://expanse.fandom.com/wiki/Bush_shipyards">UN</a></abbr><br><img src="img/earth.png" alt="" width="200" height="200" title="EARTH" loading="lazy">
+            </ul>                
+        <h4> my schedule</h4>
+        <p> ok sooo my plan</p>
+        <ol>
+           <li>do stuff 1</li>  
+            <li>do stuff 2</li> 
+            <li>do stuff 3 </li>
+            <li>do stuff 4 which is display a small code</li>
+        </ol>
+        <code> 
+            <br>
+            &lt;h1&gt;hello world!&lt;/h1&gt;
+        </code><br><br>  
+        ok so now i will create a table about the things i will do
+        <table>
+            <caption>My Daily Schedule</caption>
+            <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>TIME</th>
+                <th>WORK TO BE DONE</th>
+            </tr>
+        </thead>
+        <tbody>   
+        <tr>
+            <th>Morning</th>
+            <td>
+                <time datetime="08:00"> 8 am</time>-<time datetime="11:00">11am</time>
+            </td>
+            <td> do stuff 1 which is watch a chess match</td>
+        </tr>
+        <tr>
+            <th>Afternoon</th>
+            <td>
+                <time datetime="12:00">12pm</time>-<time datetime="01:00">1pm</time>
+            </td>
+            <td> do stuff 2 which is learn new things</td>
+        </tr>
+        <tr>
+            <th>Evening</th>
+            <td>
+                <time datetime="01:00">1pm</time>-<time datetime="03:00">3pm</time>
+            </td>
+            <td> do stuff 3 which is go play a game</td>
+        </tr>
+        <tr>
+            <th>Evening again :) </th>
+            <td colspan="2"> Free Time</td>
+        </tr>
+        <tr>
+            <th>Night </th>
+            <td rowspan="1">any other remaining time</td>
+            <td>sleep</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">And That Is My Plan For Today</td>
+        </tr>
+    </tfoot>
+    
+        </table> 
+
+
+        
+<hr>
+        <h4> plan for tomorrow</h4>
+        <dl>
+            <dt> VISIT EARTH</dt>
+            <dd>place where there is <strong>life</strong>!</dd>
+            <dt>VISIT MARS</dt>
+            <dd>place where people want life</dd>
+        </dl>
+    </main>
+
+    <aside>
+        <details>
+            <summary>
+                 can you guess from which show this website  is inspired from?
+            </summary>
+            <p> from the show called <mark>"The Expanse" </mark></p>
+        </details>
+    </aside>
+    <hr>
+
+    <article id="contact">
+       <h2>contact me</h2>
+       <p>It would be great to hear your suggestions!</p> 
+
+       <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+            <legend>Personal info</legend>
+        <p> 
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" id="Name" placeholder="eg:kausthubh" required>
+    </p>
+    <p>    
+        <label for="Emailid">Email id:</label>
+        <input type="text" name="Emailid" id="Emailid" placeholder="eg:thishuman@gmail.com" required>
+    </p>
+    <p>    
+        <label for="Password">Password:</label>
+        <input type="Password" name="Password" id="Password" placeholder="eg:Thi1@sh!" required>
+    </p>
+    <p>    
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" placeholder="eg:+91 1234567890" required>
+    </p>
+    <p>    
+        <label for="number"> Favorite number:</label>
+        <input type="number" name="number" id="number" min="0" max="10" step="1" value="2">
+    </p>
+     <p>
+        <label for="side"> Favorite side</label>
+        <select name="side" id="side">
+            <optgroup label="Inner planets">
+            <option value="United nations" >United nations</option>
+            <option value="Martian Congressional Republic" selected>Martian Congressional Republic</option>
+        </optgroup>
+        <optgroup label="Outer planets">
+            <option value="Belt">Belt</option>
+            <option value="Outer Planets Alliance">Outer Planets Alliance </option>
+        </optgroup>
+            <option value="others">others</option>
+        
+        </select>
+    </p>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Your fav food</legend>
+    <p>
+        <input type="radio" name="food" id="samosa" value="samosa">
+        <label for="samosa">samosa</label>
+    </p>
+    <p>
+        <input type="radio" name="food" id="paanipuri" value="paanipuri">
+        <label for="paanipuri">paani puri</label>
+    </p>
+    <p>
+        <input type="radio" name="food" id="aluuchat" value="aluuchat">
+        <label for="aluuchat">aluu chat</label>
+    </p>
+    <p>
+        <input type="radio" name="food" id="others" value="others">
+        <label for="others">others</label>
+    </p>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Which programming language are you learning</legend>
+    <p>
+        <input type="checkbox" name="programming language" id="HTML" value="HTML">
+        <label for="HTML">HTML</label>
+    </p>
+    <p>
+        <input type="checkbox" name="programming language" id="python" value="python">
+        <label for="python">python</label>
+    </p>
+    <p>
+        <input type="checkbox" name="programming language" id="java" value="java">
+        <label for="java">java</label>
+    </p>
+    <p>
+        <input type="checkbox" name="programming language" id="django" value="django">
+        <label for="django">django</label>
+    </p>
+    <p>
+        <input type="checkbox" name="programming language" id="Otherprogramminglanguage" value="Otherprogramminglanguage">
+        <label for="Otherprogramminglanguage">Other programming language</label>
+    </p>
+</fieldset>
+<br>
+<fieldset>
+    <legend>send me your fav moments of the expanse show </legend>
+    <label for="message">your fav moments</label>
+    <br>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="my fav moment was when a character from season 2 ep 3 did something to someone."></textarea>
+
+</fieldset>
+<br>
+<button type="submit">Sumbit</button>
+<button type="submit" formaction="https://httpbin.org/post" formmethod="post">secure</button>
+<button type="reset">Reset</button>
+       </form>
+    </article>
+
+<footer>
+        <hr>
+        &lt;&lt; &copy; <a href="about.html">lrv</a> &gt;&gt;
+    </footer>
+
+    </body>
+</html>
